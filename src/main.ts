@@ -11,8 +11,9 @@ type Data = {
 
 form?.addEventListener('submit', (e) => {
   e.preventDefault();
-  const formData = new FormData(e.currentTarget);
-  const data = Object.fromEntries(formData) as Data;
+  const formData = new FormData(e.currentTarget as HTMLFormElement);
+
+  const data = Object.fromEntries(formData as any) as Data;
 
   const { email, message, name, telephone } = data;
   if (!email || !message || !name || !telephone) {
