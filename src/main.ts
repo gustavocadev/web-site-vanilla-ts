@@ -1,4 +1,4 @@
-import './style.css';
+// import './style.css';
 
 const form = document.querySelector<HTMLFormElement>('form');
 
@@ -26,3 +26,5 @@ form?.addEventListener('submit', (e) => {
   );
   form.reset();
 });
+
+export {};
