@@ -1,0 +1,244 @@
+.main-header {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-bg__header-bg {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  font-size: 30px;
+  z-index: 150;
+  width: 100%;
+}
+
+.section-bg__header-bg-location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-bg__header-bg-button {
+  cursor: pointer;
+  background-color: #3f99a6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 4px;
+  outline: none;
+  border: 0;
+  padding: 8px;
+  font-size: 25px;
+}
+.section-bg__header-bg-button:hover {
+  background-color: #347e8a;
+}
+
+.header-bg h1 {
+  margin: 10px;
+}
+
+.mainMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3f99a6;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+li {
+  padding: 0 10px;
+}
+
+.mainMenu__link {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.img-background {
+  background-image: url('/mac.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  opacity: 0.5;
+}
+
+.layer-black {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  height: inherit;
+}
+
+.section-bg {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  height: calc(100vh - 300px);
+}
+
+.section-bg p {
+  font-size: 20px;
+}
+
+.main {
+  margin-top: 500px;
+}
+
+.section-services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.section-services header {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.section-services article {
+  padding: 10px;
+  text-align: center;
+}
+
+.section-services article p {
+  line-height: 2;
+}
+
+.main__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.article__bg-icon {
+  background-color: #f7bd45;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 30px;
+}
+.form h3 {
+  color: #f7bd45;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #757575;
+}
+
+.form input,
+textarea {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+
+.form__second-section textarea {
+  height: 100px;
+}
+
+.form__first-section {
+  width: 50%;
+  display: flex;
+}
+
+.form__first-section label input {
+  flex-grow: 1;
+}
+
+.form__first-section label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: white;
+}
+
+.form__second-section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.form__second-section label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  color: white;
+}
+textarea {
+  margin-left: 0;
+  /* margin-right: 0; */
+}
+
+.form button {
+  margin: 10px;
+  padding: 10px 45px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3c96af;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #347e8a;
+}
+
+.form .section-button {
+  padding: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #c3d6f1;
+}
